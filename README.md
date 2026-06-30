@@ -18,7 +18,7 @@ Now we're going to be going over A TON of information for this lab. I'm familiar
 
 So with that being said, I needed to get familiar with AWS' Terraform environment. Before we even do that, we need to install Terraform on our local machine. But even before that, we need to install the AWS Cloud Shell into our local machine as well so lets get started with those things. We'll begin with the AWS download. Go to Google and enter AWS Windows Installer. 
 
-![Install AWS Cloud Shell](OnePercentWeek6Day2_Task1.png)
+![Logging into Docker from CLI](images/OnePercentWeek6Day2_Task1.png)
 
 Copy and paste the installer command in Command Prompt (CMD) to install the AWS Bash CLI. Restart CMD or VS Code and then run `aws --version` to confirm the CLI is installed. 
 
