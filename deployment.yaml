@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: greeting-server-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: greeting-server
+  template:
+    metadata:
+      labels:
+        app: greeting-server
+    spec:
+      containers:
+      - name: greeting-server
+        image: emvaugh2/greeting-server:latest
+        ports:
+        - containerPort: 50000
