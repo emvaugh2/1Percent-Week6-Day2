@@ -21,8 +21,6 @@ The smallest part of Kubernetes is a pod. A pod is the smallest deployment unit 
 
 A node is a compute resource. To keep it simple, lets just call it a virtual machine (VM or EC2 instance). 1 or more pods can live on a node. The next level is a cluster. A cluster is a collection of nodes. A cluster usually containers a master node that is the control plane (issues commands) and worker nodes (do the work). 
 
-![Docker login command](images/OnePercentWeek6Day2_Task1.png)
-
 Now that we have the basics out the way, lets actually get K8s up and running!
 
 ## Define a Kubernetes Deployment
