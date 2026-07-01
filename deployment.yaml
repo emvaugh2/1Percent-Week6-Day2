@@ -16,4 +16,4 @@ spec:
       - name: greeting-server
         image: emvaugh2/greeting-server:latest
         ports:
-        - containerPort: 50000
+        - containerPort: 5000
